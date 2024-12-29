@@ -1,0 +1,8 @@
+version: "27"
+
+services:
+    simple-web-service:
+        image: devopsdockeruh/simple-web-service
+        volumes:
+            - ./text.log:/usr/src/app/text.log
+        container_name: textove
